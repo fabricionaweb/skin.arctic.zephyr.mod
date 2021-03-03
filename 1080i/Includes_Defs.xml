@@ -3041,7 +3041,7 @@
         <onclick>Close</onclick>
     </include>
     
-    <include name="Def_Flag">
+    <include name="DefOSD_Flag_Star">
         <param name="left" value="$PARAM[left]" default="0"/>
         <param name="visible" value="$PARAM[visible]" default="true"/>
         <param name="width" value="$PARAM[width]" default="37"/>
@@ -3057,11 +3057,11 @@
         </definition>
     </include>
     
-    <include name="Def_Flag_Small">
+    <include name="Def_Flag_Star">
         <param name="left" value="$PARAM[left]" default="0"/>
         <param name="visible" value="$PARAM[visible]" default="true"/>
         <param name="color" value="$PARAM[color]" default="$VAR[ColorStars]"/>
-        <definition>        
+        <definition>
         <control type="image">
             <posx>$PARAM[left]</posx>
             <width>64</width>
@@ -3073,33 +3073,33 @@
         </definition>
     </include>
     
-    <include name="Def_Flags_Furniture_Small">
+    <include name="Def_Flag_Rating">
         <param name="left" value="$PARAM[left]" default="0"/>
         <param name="visible" value="$PARAM[visible]" default="true"/>
         <definition>  
-        <include content="Def_Flag_Small">
+        <include content="Def_Flag_Star">
             <param name="Star" value="$PARAM[Star]1" />
             <param name="color" value="$PARAM[color]" />
         </include>
-        <include content="Def_Flag_Small">
+        <include content="Def_Flag_Star">
             <param name="Star" value="$PARAM[Star]2" />
             <param name="left" value="-36" />
             <param name="visible" value="$PARAM[visible]" />
             <param name="color" value="$PARAM[color]" />
         </include>
-        <include content="Def_Flag_Small">
+        <include content="Def_Flag_Star">
             <param name="Star" value="$PARAM[Star]3" />
             <param name="left" value="-36" />
             <param name="visible" value="$PARAM[visible]" />
             <param name="color" value="$PARAM[color]" />
         </include>        
-        <include content="Def_Flag_Small">
+        <include content="Def_Flag_Star">
             <param name="Star" value="$PARAM[Star]4" />
             <param name="left" value="-36" />
             <param name="visible" value="$PARAM[visible]" />
             <param name="color" value="$PARAM[color]" />
         </include>        
-        <include content="Def_Flag_Small">
+        <include content="Def_Flag_Star">
             <param name="Star" value="$PARAM[Star]5" />
             <param name="left" value="-36" />
             <param name="visible" value="$PARAM[visible]" />

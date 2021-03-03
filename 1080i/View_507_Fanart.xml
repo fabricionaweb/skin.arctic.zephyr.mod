@@ -211,22 +211,22 @@
                                             <width>1050</width>
                                             <visible>!String.IsEqual(ListItem.Label,..)</visible>
                                             <visible>!Skin.HasSetting(furniture.numericrating)</visible>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar1" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar2" />
                                                 <param name="left" value="50" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar3" />
                                                 <param name="left" value="100" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar4" />
                                                 <param name="left" value="150" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar5" />
                                                 <param name="left" value="200" />
                                             </include>
@@ -236,7 +236,7 @@
                                             <width>1050</width>
                                             <visible>Skin.HasSetting(furniture.numericrating)</visible>
                                             <visible>!String.IsEqual(ListItem.Label,..)</visible>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar1" />
                                             </include>
                                             <control type="label">
@@ -328,22 +328,22 @@
                                             <width>1050</width>
                                             <visible>!String.IsEqual(ListItem.Label,..)</visible>
                                             <visible>!Skin.HasSetting(furniture.numericrating)</visible>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar1" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar2" />
                                                 <param name="left" value="50" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar3" />
                                                 <param name="left" value="100" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar4" />
                                                 <param name="left" value="150" />
                                             </include>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar5" />
                                                 <param name="left" value="200" />
                                             </include>
@@ -353,7 +353,7 @@
                                             <width>1050</width>
                                             <visible>Skin.HasSetting(furniture.numericrating)</visible>
                                             <visible>!String.IsEqual(ListItem.Label,..)</visible>
-                                            <include content="Def_Flag">
+                                            <include content="DefOSD_Flag_Star">
                                                 <param name="Star" value="Flagstar1" />
                                             </include>
                                             <control type="label">
@@ -514,22 +514,22 @@
                                 <width>1050</width>
                                 <visible>!String.IsEqual(ListItem.Label,..)</visible>
                                 <visible>!Skin.HasSetting(furniture.numericrating)</visible>
-                                <include content="Def_Flag">
+                                <include content="DefOSD_Flag_Star">
                                     <param name="Star" value="Flagstar1" />
                                 </include>
-                                <include content="Def_Flag">
+                                <include content="DefOSD_Flag_Star">
                                     <param name="Star" value="Flagstar2" />
                                     <param name="left" value="50" />
                                 </include>
-                                <include content="Def_Flag">
+                                <include content="DefOSD_Flag_Star">
                                     <param name="Star" value="Flagstar3" />
                                     <param name="left" value="100" />
                                 </include>
-                                <include content="Def_Flag">
+                                <include content="DefOSD_Flag_Star">
                                     <param name="Star" value="Flagstar4" />
                                     <param name="left" value="150" />
                                 </include>
-                                <include content="Def_Flag">
+                                <include content="DefOSD_Flag_Star">
                                     <param name="Star" value="Flagstar5" />
                                     <param name="left" value="200" />
                                 </include>
@@ -539,7 +539,7 @@
                                 <width>1050</width>
                                 <visible>Skin.HasSetting(furniture.numericrating)</visible>
                                 <visible>!String.IsEqual(ListItem.Label,..)</visible>
-                                <include content="Def_Flag">
+                                <include content="DefOSD_Flag_Star">
                                     <param name="Star" value="Flagstar1" />
                                 </include>
                                 <control type="label">

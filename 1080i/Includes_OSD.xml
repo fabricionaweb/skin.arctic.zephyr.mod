@@ -107,27 +107,27 @@
                 <itemgap>12</itemgap>
                 <usecontrolcoords>true</usecontrolcoords>
                 <visible>!VideoPlayer.Content(livetv)</visible>
-                <include content="Def_Flag">
+                <include content="DefOSD_Flag_Star">
                     <param name="Star" value="Flagstar199" />
                     <param name="visible" value="!Skin.HasSetting(videoosd.numericrating)" />
                 </include>
-                <include content="Def_Flag">
+                <include content="DefOSD_Flag_Star">
                     <param name="Star" value="Flagstar299" />
                     <param name="visible" value="!Skin.HasSetting(videoosd.numericrating)" />
                 </include>
-                <include content="Def_Flag">
+                <include content="DefOSD_Flag_Star">
                     <param name="Star" value="Flagstar399" />
                     <param name="visible" value="!Skin.HasSetting(videoosd.numericrating)" />
                 </include>
-                <include content="Def_Flag">
+                <include content="DefOSD_Flag_Star">
                     <param name="Star" value="Flagstar499" />
                     <param name="visible" value="!Skin.HasSetting(videoosd.numericrating)" />
                 </include>
-                <include content="Def_Flag">
+                <include content="DefOSD_Flag_Star">
                     <param name="Star" value="Flagstar599" />
                     <param name="visible" value="!Skin.HasSetting(videoosd.numericrating)" />
                 </include>
-                <include content="Def_Flag">
+                <include content="DefOSD_Flag_Star">
                     <param name="Star" value="Flagstar199" />
                     <param name="visible" value="Skin.HasSetting(videoosd.numericrating)" />
                 </include>
@@ -680,27 +680,27 @@
                 <visible>Skin.HasSetting(furniture.flagiconsosd) + Skin.HasSetting(furniture.flagiconsosdnoicons) + $EXP[IsVideoDolbyVision]</visible>
             </control>
 
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar199" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar299" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar399" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar499" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar599" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar199" />
                 <param name="visible" value="[Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
@@ -818,27 +818,27 @@
                 <visible>Skin.HasSetting(furniture.flagiconsosd) + Skin.HasSetting(furniture.flagiconsosdnoicons) + $EXP[IsVideoDolbyVision]</visible>
             </control>
 
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar199" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar299" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar399" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar499" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar599" />
                 <param name="visible" value="[!Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
-            <include content="Def_Flag">
+            <include content="DefOSD_Flag_Star">
                 <param name="Star" value="Flagstar199" />
                 <param name="visible" value="[Skin.HasSetting(videoosd.numericrating) + !VideoPlayer.Content(livetv)]" />
             </include>
